@@ -36,7 +36,7 @@ Modern Spring Boot 3.x+ application development demands lean framework coupling,
 
 ## What's Included
 
-### 1. Automatic Guardrails (`rules/AGENTS.md`)
+### 1. Automatic Guardrails (`rules/modern-spring-boot-conventions.md`)
 Automatically enforced across Spring Boot projects:
 - **Constructor Injection Exclusively**: Implicit constructor injection on immutable components; `@Autowired` on fields is strictly prohibited.
 - **Zero Framework Leakage in Business Domain**: Core domain models and use case interactors remain 100% pure Java without Spring annotations.
@@ -73,7 +73,7 @@ modern-spring-boot-best-practices/
 ├── .gitignore
 ├── .gitattributes
 ├── rules/
-│   └── AGENTS.md
+│   └── modern-spring-boot-conventions.md
 └── skills/
     └── modern-spring-boot-conventions/
         └── SKILL.md
