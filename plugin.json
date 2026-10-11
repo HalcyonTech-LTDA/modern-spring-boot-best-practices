@@ -1,5 +1,5 @@
 {
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "modern-spring-boot-best-practices",
-  "description": "Modern Spring Boot 3.x+ microservice conventions and best practices: strict constructor injection, immutable configuration records, placeholder discipline without default fallback values (.env.example discipline), RFC 7807 ProblemDetail error handling, fluent RestClient & JdbcClient APIs, Testcontainers @ServiceConnection, and cloud-native Micrometer observability.",
-  "version": "1.0.0"
+  "description": "Modern Spring Boot 3.x+ microservice conventions and best practices: strict constructor injection, immutable configuration records, placeholder discipline without default fallback values (.env.example discipline), RFC 7807 ProblemDetail error handling, fluent RestClient & JdbcClient APIs, Testcontainers @ServiceConnection, and cloud-native Micrometer observability."
 }
